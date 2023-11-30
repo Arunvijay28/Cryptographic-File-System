@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Encryption and Decryption</title>
+    <link rel="stylesheet" href="..\static\css\index.css">
+</head>
+<body>
+    <div class="box">
+        <h2>File Encryption and Decryption</h2>
+        
+        <form class="form1" action="/upload_encrypt" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" accept=".txt,.jpg,.pdf,.doc">
+            <input class="enc" type="submit" value="Encrypt">
+        </form>
+
+        <br>
+        
+        <form class="form"action="/upload_decrypt" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" accept=".txt,.jpg,.pdf,.doc">
+            <input class="dec" type="submit" value="Decrypt">
+        </form>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <a class="anc"href="/download_encrypted">Download Encrypted File</a>
+        <br>
+        <a class="anc"href="/download_decrypted">Download Decrypted File</a>
+    </div>
+</body>
+</html>
