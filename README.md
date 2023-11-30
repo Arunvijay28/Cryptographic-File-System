@@ -1,5 +1,8 @@
 # Cryptographic-File-System
-In modern days data security in very much important this project deals with the symmetric key encryption technique
+In modern days data security in very much important this project deals with the special way of encryption called symmetric key encryption technique
+It can be used for:
+  1) Confidential data sharing
+  2) Securing personal files
 
 # Symmetric key encryption : 
 In which same key is used for both encryption and decryption in which if the key is lost the encrypted data cannot be decrypted or if the key is stolen then the person who holds the key can see the encrypted data
